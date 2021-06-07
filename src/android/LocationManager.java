@@ -168,8 +168,8 @@ public class LocationManager extends CordovaPlugin implements BeaconConsumer {
         final boolean requestPermission = this.preferences.getBoolean(
                 REQUEST_BT_PERMISSION_NAME, DEFAULT_REQUEST_BT_PERMISSION);
            
-        if(requestPermission)
-              tryToRequestMarshmallowLocationPermission();
+//        if(requestPermission)
+//              tryToRequestMarshmallowLocationPermission();
     }
 
     /**
